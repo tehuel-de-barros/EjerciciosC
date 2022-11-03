@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
   sixth->next = NULL;
 
   for (node *x = first; x != NULL; x = x->next) {
-      printf("%c", x -> value);
+      printf("%c ", x -> value);
   }
 
   printf("\n");
